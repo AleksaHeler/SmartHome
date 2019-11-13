@@ -24,4 +24,3 @@ TODO
 	- [Raspberry Pi Server based on Docker](https://www.youtube.com/watch?v=a6mjt8tWUws)
 - Repositories
 	- [IOTstack](https://github.com/gcgarner/IOTstack)
-
