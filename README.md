@@ -11,7 +11,7 @@ For the server I used a Raspberry Pi 3 B+, which is easy to set up and let it wo
 TODO: better explain every program
 
 ## Devices
-As I currently have only one NodeMCU, I used it to connect with an array of sensors and to publish readings frequently to the local server. TODO: explain the code
+As I currently have only one NodeMCU, I used it to connect with an array of sensors and to publish readings frequently to the local server. Code can be found in [NodeMCU/src](NodeMCU/src)
 
 ## How to set up
 TODO
