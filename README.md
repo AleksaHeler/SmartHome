@@ -68,7 +68,9 @@ Code can be found in [NodeMCU/src](NodeMCU/src). Brief explanation:
 ## How to boot RasPi from USB instead of an SD card
 So I had a problem with sd card, it just got fried. It was pretty old and slow anyway, and I didn't have any other at that time, and I also didn't want to go buy a new one. So I researched a bit and found a way to boot the Raspberry Pi to USB without having an SD card.
 
-It seems to only work on Pi3B+, but I don't have other boards to try it out. It's not exatly true that you don't need an SD card, it is needed to boot up the Pi just once for one-time configuration. I used an SD card from my phone, I just made a backup of it and formated it, installed raspbian, did what was needed, then formated it again and got everything back as it was.
+This works on Pi 3B, 3B+, 3A+, and 2B v1.2 only, and Raspberry Pi 3A+ and 3B+ are able to boot from USB without any changes. It's not exatly true that you don't need an SD card, it is needed to boot up the Pi just once for one-time configuration. I used an SD card from my phone, I just made a backup of it and formated it, installed raspbian, did what was needed, then formated it again and got everything back as it was.
+
+There is already a good [tutorial](https://www.raspberrypi.org/documentation/hardware/raspberrypi/bootmodes/msd.md) on how to do it.
 
 
 ## Links
