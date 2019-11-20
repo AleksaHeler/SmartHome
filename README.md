@@ -1,6 +1,15 @@
 # SmartHome
 This is an experimet for making an infrastructure for logging and displaying data on home server.
 
+## Contents
+ - [Server](#server)
+ - [Devices](#devices)
+ - How to set up
+   - Server
+   - NodeMCU
+ - How to boot RasPi from USB
+ - Links
+
 
 ## Server
 For the server I used a Raspberry Pi 3 B+, which is easy to set up and let it work 24/7. Following instructions from [this](https://www.youtube.com/watch?v=a6mjt8tWUws) YouTube video by Andreas Spiess, where he uses [IOTstack](https://github.com/gcgarner/IOTstack) by Graham Garner, it was pretty easy to set up the Raspberry Pi with docker and install containters:
@@ -55,9 +64,11 @@ Code can be found in [NodeMCU/src](NodeMCU/src). Brief explanation:
 	- read all sensors
 	- format string with all data
 	- publish the string to topic 'devices'
+	
+## How to boot RasPi from USB (instead of an SD card)
+So I had a problem with sd card, it just got fried. It was pretty old and slow anyway, and I didn't have any other at that time, and I also didn't want to go buy a new one. So I researched a bit and found a way to boot the Raspberry Pi to USB without having an SD card.
 
-## Pictures & schematics
-TODO
+It seems to only work on Pi3B+, but I don't have other boards to try it out. It's not exatly true that you don't need an SD card, it is needed to boot up the Pi just once for one-time configuration. I used an SD card from my phone, I just made a backup of it and formated it, installed raspbian, did what was needed, then formated it again and got everything back as it was.
 
 
 ## Links
