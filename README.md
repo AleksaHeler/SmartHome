@@ -4,11 +4,11 @@ This is an experimet for making an infrastructure for logging and displaying dat
 ## Contents
  - [Server](#server)
  - [Devices](#devices)
- - How to set up
-   - Server
-   - NodeMCU
- - How to boot RasPi from USB
- - Links
+ - [How to set up](#how-to-set-up)
+   - [Server](#how-to-set-up)
+   - [NodeMCU](#nodemcu)
+ - [How to boot RasPi from USB](#how-to-boot-raspi-from-usb-instead-of-an-sd-card)
+ - [Links](#links)
 
 
 ## Server
@@ -65,7 +65,7 @@ Code can be found in [NodeMCU/src](NodeMCU/src). Brief explanation:
 	- format string with all data
 	- publish the string to topic 'devices'
 	
-## How to boot RasPi from USB (instead of an SD card)
+## How to boot RasPi from USB instead of an SD card
 So I had a problem with sd card, it just got fried. It was pretty old and slow anyway, and I didn't have any other at that time, and I also didn't want to go buy a new one. So I researched a bit and found a way to boot the Raspberry Pi to USB without having an SD card.
 
 It seems to only work on Pi3B+, but I don't have other boards to try it out. It's not exatly true that you don't need an SD card, it is needed to boot up the Pi just once for one-time configuration. I used an SD card from my phone, I just made a backup of it and formated it, installed raspbian, did what was needed, then formated it again and got everything back as it was.
